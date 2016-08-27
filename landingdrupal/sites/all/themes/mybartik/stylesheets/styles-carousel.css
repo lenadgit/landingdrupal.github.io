@@ -1,0 +1,78 @@
+.carousel  {
+position: relative;
+   width: 900px; /* ширина всего блока */
+   margin: 0px auto;
+}
+.carousel-wrapper {
+   width: 820px; /* ширина области карусели */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   margin:0px;
+   padding:0px;
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 250px;
+height:250px;   /* задаём ширину каждого элемента */
+   padding: 5px 5px; /* делаем оступы, чтобы элементы не сливались */
+}
+
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 140px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left; 
+   background: url(../images/carousel-left.png); 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../images/carousel-right.png); 
+}
+
+/*********** SHADOW ***********/
+.shadow-block{
+   float:left;
+}
+.shadow-block .t{
+   padding:0px;
+   background: url(../images/shadow/tc.jpg) repeat-x top;
+}
+.shadow-block .b{
+   padding:0px;
+   background: url(../images/shadow/bc.jpg) repeat-x bottom;
+}
+.shadow-block .t .t{
+   padding:0px;
+   background: url(../images/shadow/tl.jpg) no-repeat top left;
+}
+.shadow-block .t .t .t{
+   padding:0px 0px 0px 0px;
+   background: url(../images/shadow/tr.jpg) no-repeat top right;
+}
+
+.shadow-block .b .b{
+   padding:0px;
+   background: url(../images/shadow/bl.jpg) no-repeat bottom left;
+}
+.shadow-block .b .b .b{
+   padding:2px 40px 2px 40px;   
+   background: url(../images/shadow/br.jpg) no-repeat bottom right;
+}
+.shadow-block .m{
+   padding:0px;
+   background: url(../images/shadow/l.jpg) repeat-y left;
+}
+.shadow-block .m .m{
+   padding:0px;
+   background: url(../images/shadow/r.jpg) repeat-y right;
+}

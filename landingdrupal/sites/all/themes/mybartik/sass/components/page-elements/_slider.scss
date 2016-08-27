@@ -1,0 +1,44 @@
+.pane-myslider {
+  .pane-title {
+    display: none;
+  }
+}
+
+.view-id-myslider {
+  border: 1px solid $grey;
+  margin-top: 5%;
+  margin: 0 auto;
+  width: 85%;
+   h2 {
+    .pane-title {
+      font-size: 24px;
+      margin-top: 5%;
+      text-align: center;
+    }
+  }
+}
+
+.slick-prev {
+  background-image: url("/sites/all/themes/mybartik/images/icons/pointer-left.png") !important;
+  background: none;
+  border: none;
+  font-size: 0;
+  height: 40px;
+  left: -50px;
+  position: absolute;
+  top: 100px;
+  width: 40px;
+}
+
+.slick-next {
+  background-image: url("/sites/all/themes/mybartik/images/icons/pointer-left.png") !important;
+  background: none;
+  border: none;
+  float: right;
+  font-size: 0;
+  height: 40px;
+  position: absolute;
+  right: -50px;
+  top: 100px;
+  width: 40px;
+}

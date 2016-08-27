@@ -1,0 +1,16 @@
+<?php
+
+
+function contact_form_fields_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'contact_form_node_form':
+    //dsm($form);
+    $form['field_vashe_imya']['und'][0]['value']['#title'] = "";
+    $form['field_vash_emeil']['und'][0]['value']['#title'] = "";
+
+    $form['actions']['submit']['#value'] = "Отправить";
+    break;
+  }
+  return $form;
+}
+

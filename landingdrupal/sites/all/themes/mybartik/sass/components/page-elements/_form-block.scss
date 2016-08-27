@@ -1,0 +1,39 @@
+.pane-formblock-contact-form {
+  background: $main-color;
+  color: $light-color;
+  float: right;
+  height: 400px;
+  opacity: 0.7;
+  width: 345px;
+    h2 {
+      display: none;
+    }
+      .form-item-title {
+        font-size: 30px;
+        font-weight: 100;
+        padding: 25px  55px;
+        text-align: center;
+      }
+      #edit-title, .form-required {
+        display: none;
+      }
+      input[type = "text"] {
+        color: $main-color;
+        font-size: 16px;
+        margin-left: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 300px;
+      }
+      .form-submit {
+        background: $active-color;
+        border-radius: 0;
+        border: none;
+        margin-left: 20px;
+        width: 300px;
+      }
+      #edit-submit {
+        color: #fff;
+        font-size: 24px;
+  }
+}

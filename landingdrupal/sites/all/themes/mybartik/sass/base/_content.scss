@@ -1,0 +1,180 @@
+.block-contacts { // here was id (was changed on selector-class)
+  background-image: url("../images/header.png");
+  background-size: cover;
+}
+
+.panels-flexible-row-inside-first { // HOW TO ADD a CLASS to MAIN CONTAINER? (.region-content was added to row)
+  margin: 0 auto;
+  width: 85%;
+}
+
+.region-content {
+  margin-top: -40px;
+}
+
+.main-left-header { //was added own css-class instead of .pane-2
+  float: left;
+  font-size: 16px;
+  width: 100%;
+    h2 {
+      font-size: 24px;
+      line-height: 1;
+      width: 420px;
+  }
+}
+
+.phone-number { //was added own css-class instead of .pane-1
+  float: right;
+  font-size: 16px;
+    h2 {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1;
+  }
+   .pane-content {
+      margin-top: 50px;
+  }
+}
+
+.first-row, .second-row {
+  .pane-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+  }
+}
+
+.panel-separator  {
+  clear: both;
+}
+
+.views-field-title {
+  display: none;
+}
+
+.line-divider {
+  height: 10%;
+  width: 100%;
+}
+
+.white-content{
+  margin-top: 5%;
+}
+
+.second-section-divider { //was added own class
+  background-image: url("/sites/all/themes/mybartik/images/divider.png");
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.pane-3 {
+  // red heading in section with counter
+  .pane-content {
+    color: $active-color;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+.views-label-field-zakaz, .views-label-field-3d {
+  font-size: 26px;
+  line-height: 2;
+}
+
+.pane-view-counter-tv {
+  display: inline;
+  width: 40%;
+    h2 {
+      display: none;
+   }
+}
+ .view-view-counter-tv {
+  float: left;
+}
+
+.view-view-counter {
+  display: inline;
+  float: right;
+  margin-top: -300px;
+  width: 50%;
+}
+
+.views-field-field-black-tv {
+  float: left;
+  padding-left: 5%;
+}
+
+.pane-view-counter {
+  h2 {
+    display: none;
+  }
+}
+
+.views-field-field-timer-field {
+  margin-top: 25px;
+}
+
+.pane-view-map {
+  .pane-title {
+    display: none;
+  }
+}
+
+.pane-view-divider {
+  .pane-title {
+    background-image: url("/sites/all/themes/mybartik/images/divider.png");
+    background-repeat: no-repeat;
+    color: $light-color;
+  }
+}
+
+
+
+
+//BLOCK-UNDER//
+
+.test-block {
+  background: yellow;
+}
+.share-wrapper {
+  height: 250px;
+  position: relative;
+  width: 420px;
+}
+
+.opacity {
+  background: $main-color;
+  height: 250px;
+  opacity: 0.5;
+  position: absolute;
+  width: 420px;
+}
+
+.share-tv {
+  float: left;
+  position: relative;
+}
+
+.share-heading {
+  font-size: 24px;
+  color: $active-color;
+  position: relative;
+}
+.share-text {
+  font-size: 16px;
+  position: relative;
+}
+
+.share-text-bold {
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+
+@include breakpoint(960px) {
+
+}
+
+

@@ -1,0 +1,177 @@
+html { @include html-fs($generalSize); }
+
+#header div.section,
+#featured div.section,
+#messages div.section,
+#triptych,
+#footer-columns,
+#footer {
+  width: 85%;
+}
+
+#main {
+  width: 100%;
+}
+
+#main-wrapper {
+  padding: 0;
+}
+
+#content {
+  .section {
+    padding: 0;
+  }
+}
+
+.breadcrumb {
+  display: none;
+}
+
+html, body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#about, #services, #portfolio, #blog-post, #team, #contact {
+  margin: 0;
+  width: 100%;
+}
+
+    .container-fluid { padding: 0; }
+
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .block-head { padding: 0; }
+
+	.block-title {
+		font-family: $main-font;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+
+	.block-description {
+        padding: 0 0 $pad-xs;
+		color: $main-color;
+//		font-family: $second-font;
+		font-style: italic;
+		font-weight: 500;
+	}
+
+	.content {
+        padding: 0;
+//		font-family: $main-font;
+	}
+
+    li { list-style: none; }
+
+    a {
+//        color: $black;
+        text-decoration: none;
+        -webkit-transition: all 0.5s ease;
+	       -moz-transition: all 0.5s ease;
+	         -o-transition: all 0.5s ease;
+	        -ms-transition: all 0.5s ease;
+	            transition: all 0.5s ease;
+
+        &:hover {
+            text-decoration: none;
+//            color: $main-color;
+            -webkit-transition: all 0.5s ease;
+	           -moz-transition: all 0.5s ease;
+	             -o-transition: all 0.5s ease;
+	            -ms-transition: all 0.5s ease;
+	                transition: all 0.5s ease;
+        }
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+//    ::selection {
+//	    background: $selection-bg-color;
+//	    color: $selection-text-color; }
+
+
+
+/* ------- Media Box ------- */
+    @media (max-width: 768px) {
+        #about,
+        #counter,
+        #services,
+        #portfolio,
+        #blog-post,
+        #team,
+        #contact {
+            padding: $pad-sm 10%;
+        }
+
+        .block-title { margin: 0 0 $pad-xs }
+
+        .block-description {
+            @include fs(14);
+            line-height: 20px;
+        }
+    }
+
+
+
+	@media (min-width: 768px) {
+        #about,
+        #counter,
+        #services,
+        #portfolio,
+        #blog-post,
+        #team,
+        #contact {
+            padding: $pad-md 10%;
+        }
+
+        .block-title { margin: 0 0 $pad-xs }
+
+        .block-description {
+            @include fs(14);
+            line-height: 20px;
+        }
+	}
+
+
+
+	@media (min-width: 992px) {
+        #about,
+        #counter,
+        #services,
+        #portfolio,
+        #blog-post,
+        #team,
+        #contact {
+            padding: $pad-lg 10%;
+        }
+
+        .block-title { margin: 0 0 $pad-sm }
+
+        .block-description {
+            @include fs(16);
+            line-height: 23px;
+        }
+	}
+
+
+	@media (min-width: 1200px) {
+        #about,
+        #counter,
+        #services,
+        #portfolio,
+        #blog-post,
+        #team,
+        #contact {
+            padding: $pad-lg+$pad-xs 10%;
+        }
+	}

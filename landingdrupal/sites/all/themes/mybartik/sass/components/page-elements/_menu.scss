@@ -1,0 +1,30 @@
+#main-menu-links {
+  li {
+    a.active, a {
+      background: none;
+      color: $light-color;
+      font-size: 18px;
+      text-align: justify;
+      text-shadow: none;
+      text-transform: uppercase;
+        &:hover {
+          color: $active-color;
+      }
+    }
+  }
+}
+
+
+#main-menu {
+  clear: none;
+  margin-top: 10px;
+}
+
+.logo {
+  img {
+    float: left;
+    margin-top: -11px;
+    padding-right: 40px;
+  }
+}
+

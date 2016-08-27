@@ -1,0 +1,47 @@
+html, html * {
+  font-family: Helvetica;
+}
+
+#header div.section,
+#featured div.section,
+#messages div.section,
+#triptych,
+#footer-columns,
+#footer {
+  width: 85%;
+}
+
+#main {
+  width: 100%;
+}
+
+#main-wrapper {
+  padding: 0;
+}
+
+#content {
+  .section {
+    padding: 0;
+  }
+}
+
+.breadcrumb {
+  display: none;
+}
+
+#header {
+  background-image: none;
+  background: $header-color;
+  height: 63px;
+}
+
+//#header:after {
+  //height: 140px;
+  //width: 100%;
+  //margin-top: -22px;
+  //background: green;
+  //opacity: 0.5;
+  //content: "";
+  //display: block;
+//}
+

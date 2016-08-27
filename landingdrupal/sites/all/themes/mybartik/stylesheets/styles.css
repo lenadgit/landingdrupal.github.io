@@ -1,0 +1,852 @@
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px, ... */
+/* color */
+/* padding */
+/* font */
+/* title & content font */
+/* describe block font */
+/* additional font */
+/* No files to import found in plugins/** */
+/* line 1, ../sass/base/_content.scss */
+.block-contacts {
+  background-image: url("../images/header.png");
+  background-size: cover;
+}
+
+/* line 6, ../sass/base/_content.scss */
+.panels-flexible-row-inside-first {
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* line 11, ../sass/base/_content.scss */
+.region-content {
+  margin-top: -40px;
+}
+
+/* line 15, ../sass/base/_content.scss */
+.main-left-header {
+  float: left;
+  font-size: 16px;
+  width: 100%;
+}
+/* line 19, ../sass/base/_content.scss */
+.main-left-header h2 {
+  font-size: 24px;
+  line-height: 1;
+  width: 420px;
+}
+
+/* line 26, ../sass/base/_content.scss */
+.phone-number {
+  float: right;
+  font-size: 16px;
+}
+/* line 29, ../sass/base/_content.scss */
+.phone-number h2 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+/* line 34, ../sass/base/_content.scss */
+.phone-number .pane-content {
+  margin-top: 50px;
+}
+
+/* line 40, ../sass/base/_content.scss */
+.first-row .pane-content, .second-row .pane-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+}
+
+/* line 47, ../sass/base/_content.scss */
+.panel-separator {
+  clear: both;
+}
+
+/* line 51, ../sass/base/_content.scss */
+.views-field-title {
+  display: none;
+}
+
+/* line 55, ../sass/base/_content.scss */
+.line-divider {
+  height: 10%;
+  width: 100%;
+}
+
+/* line 60, ../sass/base/_content.scss */
+.white-content {
+  margin-top: 5%;
+}
+
+/* line 64, ../sass/base/_content.scss */
+.second-section-divider {
+  background-image: url("/sites/all/themes/mybartik/images/divider.png");
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: 10%;
+  width: 100%;
+}
+
+/* line 74, ../sass/base/_content.scss */
+.pane-3 .pane-content {
+  color: #ff0000;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* line 81, ../sass/base/_content.scss */
+.views-label-field-zakaz, .views-label-field-3d {
+  font-size: 26px;
+  line-height: 2;
+}
+
+/* line 86, ../sass/base/_content.scss */
+.pane-view-counter-tv {
+  display: inline;
+  width: 40%;
+}
+/* line 89, ../sass/base/_content.scss */
+.pane-view-counter-tv h2 {
+  display: none;
+}
+
+/* line 93, ../sass/base/_content.scss */
+.view-view-counter-tv {
+  float: left;
+}
+
+/* line 97, ../sass/base/_content.scss */
+.view-view-counter {
+  display: inline;
+  float: right;
+  margin-top: -300px;
+  width: 50%;
+}
+
+/* line 104, ../sass/base/_content.scss */
+.views-field-field-black-tv {
+  float: left;
+  padding-left: 5%;
+}
+
+/* line 110, ../sass/base/_content.scss */
+.pane-view-counter h2 {
+  display: none;
+}
+
+/* line 115, ../sass/base/_content.scss */
+.views-field-field-timer-field {
+  margin-top: 25px;
+}
+
+/* line 120, ../sass/base/_content.scss */
+.pane-view-map .pane-title {
+  display: none;
+}
+
+/* line 126, ../sass/base/_content.scss */
+.pane-view-divider .pane-title {
+  background-image: url("/sites/all/themes/mybartik/images/divider.png");
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+/* line 138, ../sass/base/_content.scss */
+.test-block {
+  background: yellow;
+}
+
+/* line 141, ../sass/base/_content.scss */
+.share-wrapper {
+  height: 250px;
+  position: relative;
+  width: 420px;
+}
+
+/* line 147, ../sass/base/_content.scss */
+.opacity {
+  background: #000000;
+  height: 250px;
+  opacity: 0.5;
+  position: absolute;
+  width: 420px;
+}
+
+/* line 155, ../sass/base/_content.scss */
+.share-tv {
+  float: left;
+  position: relative;
+}
+
+/* line 160, ../sass/base/_content.scss */
+.share-heading {
+  font-size: 24px;
+  color: #ff0000;
+  position: relative;
+}
+
+/* line 165, ../sass/base/_content.scss */
+.share-text {
+  font-size: 16px;
+  position: relative;
+}
+
+/* line 170, ../sass/base/_content.scss */
+.share-text-bold {
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+
+/* line 1, ../sass/base/_header.scss */
+html, html * {
+  font-family: Helvetica;
+}
+
+/* line 5, ../sass/base/_header.scss */
+#header div.section,
+#featured div.section,
+#messages div.section,
+#triptych,
+#footer-columns,
+#footer {
+  width: 85%;
+}
+
+/* line 14, ../sass/base/_header.scss */
+#main {
+  width: 100%;
+}
+
+/* line 18, ../sass/base/_header.scss */
+#main-wrapper {
+  padding: 0;
+}
+
+/* line 23, ../sass/base/_header.scss */
+#content .section {
+  padding: 0;
+}
+
+/* line 28, ../sass/base/_header.scss */
+.breadcrumb {
+  display: none;
+}
+
+/* line 32, ../sass/base/_header.scss */
+#header {
+  background-image: none;
+  background: #525151;
+  height: 63px;
+}
+
+/* line 1, ../sass/base/_main.scss */
+html {
+  font-size: 14px;
+}
+
+/* line 3, ../sass/base/_main.scss */
+#header div.section,
+#featured div.section,
+#messages div.section,
+#triptych,
+#footer-columns,
+#footer {
+  width: 85%;
+}
+
+/* line 12, ../sass/base/_main.scss */
+#main {
+  width: 100%;
+}
+
+/* line 16, ../sass/base/_main.scss */
+#main-wrapper {
+  padding: 0;
+}
+
+/* line 21, ../sass/base/_main.scss */
+#content .section {
+  padding: 0;
+}
+
+/* line 26, ../sass/base/_main.scss */
+.breadcrumb {
+  display: none;
+}
+
+/* line 30, ../sass/base/_main.scss */
+html, body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+/* line 35, ../sass/base/_main.scss */
+#about, #services, #portfolio, #blog-post, #team, #contact {
+  margin: 0;
+  width: 100%;
+}
+
+/* line 40, ../sass/base/_main.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 42, ../sass/base/_main.scss */
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+/* line 47, ../sass/base/_main.scss */
+.block-head {
+  padding: 0;
+}
+
+/* line 49, ../sass/base/_main.scss */
+.block-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* line 55, ../sass/base/_main.scss */
+.block-description {
+  padding: 0 0 25px;
+  color: #000000;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* line 63, ../sass/base/_main.scss */
+.content {
+  padding: 0;
+}
+
+/* line 68, ../sass/base/_main.scss */
+li {
+  list-style: none;
+}
+
+/* line 70, ../sass/base/_main.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 79, ../sass/base/_main.scss */
+a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 90, ../sass/base/_main.scss */
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------- Media Box ------- */
+@media (max-width: 768px) {
+  /* line 106, ../sass/base/_main.scss */
+  #about,
+  #counter,
+  #services,
+  #portfolio,
+  #blog-post,
+  #team,
+  #contact {
+    padding: 50px 10%;
+  }
+
+  /* line 116, ../sass/base/_main.scss */
+  .block-title {
+    margin: 0 0 25px;
+  }
+
+  /* line 118, ../sass/base/_main.scss */
+  .block-description {
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 127, ../sass/base/_main.scss */
+  #about,
+  #counter,
+  #services,
+  #portfolio,
+  #blog-post,
+  #team,
+  #contact {
+    padding: 75px 10%;
+  }
+
+  /* line 137, ../sass/base/_main.scss */
+  .block-title {
+    margin: 0 0 25px;
+  }
+
+  /* line 139, ../sass/base/_main.scss */
+  .block-description {
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 148, ../sass/base/_main.scss */
+  #about,
+  #counter,
+  #services,
+  #portfolio,
+  #blog-post,
+  #team,
+  #contact {
+    padding: 100px 10%;
+  }
+
+  /* line 158, ../sass/base/_main.scss */
+  .block-title {
+    margin: 0 0 50px;
+  }
+
+  /* line 160, ../sass/base/_main.scss */
+  .block-description {
+    font-size: 16px;
+    font-size: 1.14285714rem;
+    line-height: 23px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 168, ../sass/base/_main.scss */
+  #about,
+  #counter,
+  #services,
+  #portfolio,
+  #blog-post,
+  #team,
+  #contact {
+    padding: 125px 10%;
+  }
+}
+/* line 1, ../sass/components/page-elements/_content.scss */
+.block-contacts {
+  background-image: url("../images/header.png");
+  background-size: cover;
+}
+
+/* line 6, ../sass/components/page-elements/_content.scss */
+.panels-flexible-row-inside-first {
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* line 11, ../sass/components/page-elements/_content.scss */
+.region-content {
+  margin-top: -40px;
+}
+
+/* line 15, ../sass/components/page-elements/_content.scss */
+.main-left-header {
+  float: left;
+  font-size: 16px;
+  width: 100%;
+}
+/* line 19, ../sass/components/page-elements/_content.scss */
+.main-left-header h2 {
+  font-size: 24px;
+  line-height: 1;
+  width: 420px;
+}
+
+/* line 26, ../sass/components/page-elements/_content.scss */
+.phone-number {
+  float: right;
+  font-size: 16px;
+}
+/* line 29, ../sass/components/page-elements/_content.scss */
+.phone-number h2 {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+/* line 34, ../sass/components/page-elements/_content.scss */
+.phone-number .pane-content {
+  margin-top: 50px;
+}
+
+/* line 40, ../sass/components/page-elements/_content.scss */
+.first-row .pane-content, .second-row .pane-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+}
+
+/* line 47, ../sass/components/page-elements/_content.scss */
+.panel-separator {
+  clear: both;
+}
+
+/* line 51, ../sass/components/page-elements/_content.scss */
+.views-field-title {
+  display: none;
+}
+
+/* line 55, ../sass/components/page-elements/_content.scss */
+.line-divider {
+  height: 10%;
+  width: 100%;
+}
+
+/* line 60, ../sass/components/page-elements/_content.scss */
+.white-content {
+  margin-top: 5%;
+}
+
+/* line 64, ../sass/components/page-elements/_content.scss */
+.second-section-divider {
+  background-image: url("/sites/all/themes/mybartik/images/divider.png");
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: 10%;
+  width: 100%;
+}
+
+/* line 74, ../sass/components/page-elements/_content.scss */
+.pane-3 .pane-content {
+  color: #ff0000;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* line 81, ../sass/components/page-elements/_content.scss */
+.views-label-field-zakaz, .views-label-field-3d {
+  font-size: 26px;
+  line-height: 2;
+}
+
+/* line 86, ../sass/components/page-elements/_content.scss */
+.pane-view-counter-tv {
+  display: inline;
+  width: 40%;
+}
+/* line 89, ../sass/components/page-elements/_content.scss */
+.pane-view-counter-tv h2 {
+  display: none;
+}
+
+/* line 93, ../sass/components/page-elements/_content.scss */
+.view-view-counter-tv {
+  float: left;
+}
+
+/* line 97, ../sass/components/page-elements/_content.scss */
+.view-view-counter {
+  display: inline;
+  float: right;
+  margin-top: -300px;
+  width: 50%;
+}
+
+/* line 104, ../sass/components/page-elements/_content.scss */
+.views-field-field-black-tv {
+  float: left;
+  padding-left: 5%;
+}
+
+/* line 110, ../sass/components/page-elements/_content.scss */
+.pane-view-counter h2 {
+  display: none;
+}
+
+/* line 115, ../sass/components/page-elements/_content.scss */
+.views-field-field-timer-field {
+  margin-top: 25px;
+}
+
+/* line 120, ../sass/components/page-elements/_content.scss */
+.pane-view-map .pane-title {
+  display: none;
+}
+
+/* line 126, ../sass/components/page-elements/_content.scss */
+.pane-view-divider .pane-title {
+  background-image: url("/sites/all/themes/mybartik/images/divider.png");
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+/* line 138, ../sass/components/page-elements/_content.scss */
+.test-block {
+  background: yellow;
+}
+
+/* line 141, ../sass/components/page-elements/_content.scss */
+.share-wrapper {
+  height: 250px;
+  position: relative;
+  width: 420px;
+}
+
+/* line 147, ../sass/components/page-elements/_content.scss */
+.opacity {
+  background: #000000;
+  height: 250px;
+  opacity: 0.5;
+  position: absolute;
+  width: 420px;
+}
+
+/* line 155, ../sass/components/page-elements/_content.scss */
+.share-tv {
+  float: left;
+  position: relative;
+}
+
+/* line 160, ../sass/components/page-elements/_content.scss */
+.share-heading {
+  font-size: 24px;
+  color: #ff0000;
+  position: relative;
+}
+
+/* line 165, ../sass/components/page-elements/_content.scss */
+.share-text {
+  font-size: 16px;
+  position: relative;
+}
+
+/* line 170, ../sass/components/page-elements/_content.scss */
+.share-text-bold {
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 960px) {
+  /* line 180, ../sass/components/page-elements/_content.scss */
+  .panels-flexible-row-inside-first {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+
+  /* line 184, ../sass/components/page-elements/_content.scss */
+  .main-left-header {
+    float: none;
+  }
+
+  /* line 189, ../sass/components/page-elements/_content.scss */
+  .field-name-title, .field-name-title h2 {
+    color: #ccc !important;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  /* line 196, ../sass/components/page-elements/_content.scss */
+  .field-name-title h2 {
+    color: #ccc !important;
+    font-size: 14px;
+  }
+}
+/* line 1, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form {
+  background: #000000;
+  color: #ffffff;
+  float: right;
+  height: 400px;
+  opacity: 0.7;
+  width: 345px;
+}
+/* line 8, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form h2 {
+  display: none;
+}
+/* line 11, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form .form-item-title {
+  font-size: 30px;
+  font-weight: 100;
+  padding: 25px  55px;
+  text-align: center;
+}
+/* line 17, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form #edit-title, .pane-formblock-contact-form .form-required {
+  display: none;
+}
+/* line 20, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form input[type="text"] {
+  color: #000000;
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+}
+/* line 28, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form .form-submit {
+  background: #ff0000;
+  border-radius: 0;
+  border: none;
+  margin-left: 20px;
+  width: 300px;
+}
+/* line 35, ../sass/components/page-elements/_form-block.scss */
+.pane-formblock-contact-form #edit-submit {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* line 1, ../sass/components/page-elements/_header.scss */
+html, html * {
+  font-family: Helvetica;
+}
+
+/* line 5, ../sass/components/page-elements/_header.scss */
+#header div.section,
+#featured div.section,
+#messages div.section,
+#triptych,
+#footer-columns,
+#footer {
+  width: 85%;
+}
+
+/* line 14, ../sass/components/page-elements/_header.scss */
+#main {
+  width: 100%;
+}
+
+/* line 18, ../sass/components/page-elements/_header.scss */
+#main-wrapper {
+  padding: 0;
+}
+
+/* line 23, ../sass/components/page-elements/_header.scss */
+#content .section {
+  padding: 0;
+}
+
+/* line 28, ../sass/components/page-elements/_header.scss */
+.breadcrumb {
+  display: none;
+}
+
+/* line 32, ../sass/components/page-elements/_header.scss */
+#header {
+  background-image: none;
+  background: #525151;
+  height: 63px;
+}
+
+/* line 3, ../sass/components/page-elements/_menu.scss */
+#main-menu-links li a.active, #main-menu-links li a {
+  background: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+/* line 10, ../sass/components/page-elements/_menu.scss */
+#main-menu-links li a.active:hover, #main-menu-links li a:hover {
+  color: #ff0000;
+}
+
+/* line 18, ../sass/components/page-elements/_menu.scss */
+#main-menu {
+  clear: none;
+  margin-top: 10px;
+}
+
+/* line 24, ../sass/components/page-elements/_menu.scss */
+.logo img {
+  float: left;
+  margin-top: -11px;
+  padding-right: 40px;
+}
+
+/* line 3, ../sass/components/page-elements/_node-block-action.scss */
+.node-promoted.node-teaser {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+/* line 6, ../sass/components/page-elements/_node-block-action.scss */
+.node-promoted.node-teaser .field {
+  font-size: 14px;
+}
+/* line 9, ../sass/components/page-elements/_node-block-action.scss */
+.node-promoted.node-teaser .field-name-field-top-ctions-image {
+  float: left;
+  margin-right: 15px;
+}
+/* line 14, ../sass/components/page-elements/_node-block-action.scss */
+.node-promoted.node-teaser .field-name-title, .node-promoted.node-teaser .field-name-title h2 {
+  color: #ff0000;
+  font-size: 24px;
+  margin-top: 0;
+}
+/* line 20, ../sass/components/page-elements/_node-block-action.scss */
+.node-promoted.node-teaser .field-name-field-text {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+/* line 2, ../sass/components/page-elements/_slider.scss */
+.pane-myslider .pane-title {
+  display: none;
+}
+
+/* line 7, ../sass/components/page-elements/_slider.scss */
+.view-id-myslider {
+  border: 1px solid #99958c;
+  margin-top: 5%;
+  margin: 0 auto;
+  width: 85%;
+}
+/* line 13, ../sass/components/page-elements/_slider.scss */
+.view-id-myslider h2 .pane-title {
+  font-size: 24px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* line 21, ../sass/components/page-elements/_slider.scss */
+.slick-prev {
+  background-image: url("/sites/all/themes/mybartik/images/icons/pointer-left.png") !important;
+  background: none;
+  border: none;
+  font-size: 0;
+  height: 40px;
+  left: -50px;
+  position: absolute;
+  top: 100px;
+  width: 40px;
+}
+
+/* line 33, ../sass/components/page-elements/_slider.scss */
+.slick-next {
+  background-image: url("/sites/all/themes/mybartik/images/icons/pointer-left.png") !important;
+  background: none;
+  border: none;
+  float: right;
+  font-size: 0;
+  height: 40px;
+  position: absolute;
+  right: -50px;
+  top: 100px;
+  width: 40px;
+}

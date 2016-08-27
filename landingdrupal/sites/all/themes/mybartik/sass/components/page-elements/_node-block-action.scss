@@ -1,0 +1,27 @@
+.node-promoted {
+  // Teaser.
+  &.node-teaser {
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    .field {
+      font-size: 14px;
+    }
+    .field-name-field-top-ctions-image {
+      float: left;
+      margin-right: 15px;
+    }
+    .field-name-title {
+      &, h2 {
+        color: $active-color;
+        font-size: 24px;
+        margin-top: 0;
+      }
+    }
+    .field-name-field-text {
+      color: $light-color;
+      font-weight: 900;
+    }
+  }
+}
+
+
